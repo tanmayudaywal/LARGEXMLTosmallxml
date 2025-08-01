@@ -47,7 +47,8 @@ tPreJob → tFileTouch → tJava
 ## Prerequisites
 
 - [Talend Open Studio](https://www.talend.com/products/talend-open-studio/) installed.
-- Java JDK installed and properly configured.
+- Java JDK installed and properly configured. Java JDK 8 or higher
+- File system access
 - Place your **large XML file** inside the `inputXML` file path before running the job.
 - outputPath or desired location as U:/Company/xyz/Datastage/src/xml/small/
 - xmlFileName Note-> Only file Name without .xml (Example: "LARGEXMLFILE123")
